@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+  font-family: 'Shrikhand', cursive;
+  font-size: 145px;
+  color: #ffffff;
+  opacity:0.9;
+  text-shadow:black 5px 0 5px;
+  /* writing-mode: vertical-rl;
+  text-orientation: mixed; */
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Shrikhand', cursive;
+  font-size: 75px;
+  color: #ffffff;
+  /* opacity:0.9; */
+  /* writing-mode: vertical-rl;
+  text-orientation: mixed; */
+}
+
+p {
+  text-align: center;
+}
+
+img {
+width: 500px;
+height: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+text-shadow: white 10px 0 10px;
+}
+
+body {
+  padding: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-image: url('../img/bg2.jpg');
+  background-size: 100%;
+}
+
+.navbar-brand {
+  padding: 1px;
+}
