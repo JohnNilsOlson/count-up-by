@@ -7,7 +7,7 @@
   <link href="css/styles.css" rel="stylesheet" type = "text/css">
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Triangle Tracker</title>
+  <title>Count Up By</title>
 </head>
   <body>
 <div class="container">
@@ -15,21 +15,22 @@
     <div class="col-md-3">
     </div>
     <div class="col-md-6">
-  <h1>Count By</h1>
+  <h1>Count Up By</h1>
     <form id="count">
-      <label for="side1">Side One Length</label>
-      <input id="side1" class="form-control" type="number">
-      <label for="side2">Side Two Length</label>
-      <input id="side2" class="form-control" type="number">
-      <label for="side3">Side Three Length</label>
-      <input id="side3" class="form-control" type="number">
+      <label for="countTo">Enter Number (Count To)</label>
+      <input id="countTo" class="form-control" type="text">
+      <label for="countBy">Enter Number (Count By)</label>
+      <input id="countBy" class="form-control" type="text">
   <button type="submit" class="btn btn-info">Count!</button>
     </form>
   </div>
 </div>
 </div>
-<!-- triangle results -->
-      <div class="output">
+<!-- counting results -->
+      <div>
+        <ul id="output">
+
+        </ul>
       </div>
   </body>
 <html>
